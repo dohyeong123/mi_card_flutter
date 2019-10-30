@@ -21,7 +21,7 @@ flutter:
 
   uses-material-design: true
   assets:
-    - images/hynn2.jpg
+    - images/hynn2.jpg #여기는 사진추가하는 곳
 
   fonts:
   - family: Quicksand
@@ -30,4 +30,4 @@ flutter:
 
   - family: IndieFlower
     fonts:
-    - asset: fonts/IndieFlower-regular.ttf
+    - asset: fonts/IndieFlower-regular.ttf #여기는 폰트 추가하는 곳

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -30,6 +29,49 @@ class MyApp extends StatelessWidget {
                       color: Colors.white,
                       fontWeight: FontWeight.w600,
                       fontFamily: 'IndieFlower')),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.call,
+                      size: 40.0,
+                      color: Colors.black,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '010-3027-3779',
+                      style: TextStyle(
+                        color: Colors.yellow,
+                        fontSize: 20.0,
+                      ),
+                    )
+                  ],
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email,
+                      size: 40.0,
+                      color: Colors.black,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'sudond@naver.com',
+                      style: TextStyle(fontSize: 20.0, color: Colors.yellow),
+                    )
+                  ],
+                ),
+              ),
             ]),
           )),
     );
